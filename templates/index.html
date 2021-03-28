@@ -1,0 +1,154 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>hello</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    </head>
+
+<body>
+
+    <form action="calculate">
+  
+        <div class="segment">
+          <h1>Cancer Prediction</h1>
+          {% if predicted != "" %}
+          <h1 style="color:yellow;">{{predicted}} TYPE</h1>
+          {% endif %}
+          <h2>Logistic Regression</h2>
+        </div>
+        
+        
+        <label>
+          <input type="text" name="exp1" value="{{exp1}}" placeholder="radius_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp2" value="{{exp2}}" placeholder="texture_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp3"  value="{{exp3}}" placeholder="perimeter_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp4" value="{{exp4}}" placeholder="area_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp5" value="{{exp5}}" placeholder="smoothness_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp6" value="{{exp6}}" placeholder="compactness_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp7"  value="{{exp7}}" placeholder="concavity_mean"/>
+        </label>
+
+        <label>
+              <input type="text" name="exp8" value="{{exp8}}" placeholder="conave points_mean"/>
+        </label>
+
+        <label>
+              <input type="text" name="exp9" value="{{exp9}}" placeholder="symmetry_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp10" value="{{exp10}}" placeholder="fractal_dimension_mean"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp11" value="{{exp11}}" placeholder="radius_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp12" value="{{exp12}}" placeholder="texture_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp13" value="{{exp13}}" placeholder="perimeter_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp14"  value="{{exp14}}" placeholder="area_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp15" value="{{exp15}}" placeholder="smoothness_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp16" value="{{exp16}}" placeholder="compactness_se"/>
+        </label>
+
+       <label>
+            <input type="text" name="exp17" value="{{exp17}}" placeholder="concavity_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp18" value="{{exp18}}" placeholder="concave points_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp19" value="{{exp19}}" placeholder="symmetry_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp20" value="{{exp20}}" placeholder="fractal_dimension_se"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp21" value="{{exp21}}" placeholder="radius_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp22" value="{{exp22}}" placeholder="texture_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp23" value="{{exp23}}" placeholder="perimeter_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp24" value="{{exp24}}" placeholder="area_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp25" value="{{exp25}}" placeholder="smoothness_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp26" value="{{exp26}}" placeholder="compactness_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp27" value="{{exp27}}" placeholder="concavity_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp28" value="{{exp28}}" placeholder="concave points_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp29" value="{{exp29}}" placeholder="symmetry_worst"/>
+        </label>
+
+        <label>
+            <input type="text" name="exp30" value="{{exp30}}"  placeholder="fractal_dimension_worst"/>
+        </label>
+       
+        
+        <!-- <button class="red" type="button"><i class="icon ion-md-lock"></i>Predict</button> -->
+        <input class="red" value="Predict" type="submit"/>
+        
+        
+      </form>
+</body>
+
+</html>
+
+
+
+ 
