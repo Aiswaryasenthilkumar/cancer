@@ -1,6 +1,8 @@
 body,
 html {
-  background-color: #ebecf0;
+  background-image: url("https://bloodcancerinstitute.com/util/images/services/2019/2019-Service-Leukemia-700x250.jpg");
+  background-repeat: repeat;
+  background-size: 700px 250px;
 }
 
 body,
@@ -16,8 +18,8 @@ button {
 
 div,
 p {
-  color: #babecc;
-  text-shadow: 1px 1px 1px #fff;
+  color:#2fffff;
+  text-shadow: 1px 1px 1px rgb(13, 14, 13);
 }
 
 form {
@@ -50,7 +52,7 @@ label {
 
 input {
   margin-right: 8px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-shadow: inset 2px 2px 5px #2ff8ff, inset -5px -5px 10px #fff;
   width: 100%;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
@@ -62,9 +64,9 @@ input:focus {
 }
 
 button {
-  color: #61677c;
+  color: #7c6961;
   font-weight: bold;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  box-shadow: -5px -5px 20px rgb(255, 255, 255), 5px 5px 20px #babecc;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 600;
